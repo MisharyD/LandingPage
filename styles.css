@@ -8,18 +8,14 @@ body
     display:flex;
     flex-direction: column;
     height: 100vh;
+    justify-content: space-between;
 }
 
-body > *
-{
-    flex: 1 1 auto
-}
 .header
 {
     display:flex;
     flex-direction: column;
     background-color: #1f2937;
-    max-height: 280px;
 }
 
 .nav
@@ -80,6 +76,7 @@ ul
 
 .body
 {
+    flex: 1 1 auto;
     display:flex;
     flex-direction: column;
     text-align: center;
@@ -114,7 +111,7 @@ ul
 .footer
 {
     background-color: #1f2937;
-    max-height:50px;
+    height:50px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -124,5 +121,4 @@ ul
 {
     margin:0px;
     color:white;
-    justify-self: flex-end;
 }
