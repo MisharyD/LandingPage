@@ -2,4 +2,45 @@ body
 {
     display:flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.nav
+{
+    display:flex;
+}
+
+.hero 
+{
+    display:flex;
+}
+
+.body
+{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cards
+{
+    display:flex;
+}
+
+.quote
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.signUp
+{
+    display:flex;
 }
